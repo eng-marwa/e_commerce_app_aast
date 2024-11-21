@@ -52,6 +52,5 @@ e_commerce_app_aast is a Flutter-based e-commerce application. This project demo
     - `ui/`: Contains the UI components of the application.
     - `model/`: Contains data models used in the application.
 
-
 ## Screenshots
 ![Onboarding Screen](onboarding_screen.png)
