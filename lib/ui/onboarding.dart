@@ -59,7 +59,8 @@ class _OnboardingState extends State<Onboarding> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text('${index + 1}/3', style: TextStyles.defaultStyle),
+              Text('${index + 1}/${_list.length}',
+                  style: TextStyles.defaultStyle),
               TextButton(
                   onPressed: () => Navigator.push(
                       context,
@@ -126,8 +127,8 @@ class _OnboardingState extends State<Onboarding> {
                                         ? ColorManager.blackColor
                                         : ColorManager.greyColorA8,
                                     borderRadius: BorderRadius.circular(5)),
-                                duration: Duration(milliseconds: 300),
-                                curve: Curves.easeIn,
+                                duration: Duration(milliseconds: 500),
+                                curve: Curves.bounceIn,
                               ),
                             ),
                           ),
@@ -142,7 +143,7 @@ class _OnboardingState extends State<Onboarding> {
                                 ));
                           } else {
                             _pageController.animateToPage(++_pageIndex,
-                                duration: Duration(milliseconds: 200),
+                                duration: Duration(milliseconds: 400),
                                 curve: Curves.easeIn);
                           }
                         },
