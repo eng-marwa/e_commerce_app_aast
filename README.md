@@ -55,9 +55,3 @@ e_commerce_app_aast is a Flutter-based e-commerce application. This project demo
 
 ## Screenshots
 ![Onboarding Screen](onboarding_screen.png)
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-This project is licensed under the MIT License.
-```
